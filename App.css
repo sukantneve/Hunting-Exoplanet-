@@ -1,0 +1,93 @@
+body, html {
+  overflow: hidden;
+  height: 100%;
+}
+
+.container {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url('space-background.jpg'); /* Replace 'space-background.jpg' with the actual filename of your space background image */
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.title {
+  text-align: center;
+  color:#fff;
+}
+
+.form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.file-input {
+  margin-right: 10px;
+  color: #fff;
+}
+
+.submit-btn {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.download-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.download-title {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.download-link {
+  padding: 8px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.download-link:hover {
+  background-color: #218838;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  padding: 10px;
+}
+
+.file-input::placeholder {
+  color: #fff;
+}
